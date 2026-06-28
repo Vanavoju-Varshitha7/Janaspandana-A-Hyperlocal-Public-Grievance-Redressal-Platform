@@ -91,6 +91,9 @@ Janaspandana uses Google Gemini with a custom system prompt to act as a civic gr
 StageWhat Happens🗣️ Issue IntakeCitizens describe problems in natural language (English or regional languages)🏷️ Auto-CategorizationGemini classifies the issue — Roads, Water, Electricity, Sanitation, Public Safety, etc.⚠️ Severity AssessmentThe model assesses urgency level — Critical / High / Medium / Low📩 Response GenerationCitizens receive a confirmation with tracking ID and estimated resolution timeline🔁 Pattern DetectionRepeated issues in the same area trigger predictive alerts for authorities
 
 
+<img width="1355" height="802" alt="Image" src="https://github.com/user-attachments/assets/58034662-1ed9-4152-b4a7-f636630b0d76" />
+
+
 <h2>🚀 Run Locally</h2>
 
 Prerequisites: Node.js
