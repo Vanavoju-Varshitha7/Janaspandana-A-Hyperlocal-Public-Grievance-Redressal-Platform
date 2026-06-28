@@ -1,18 +1,12 @@
-<div align="center">
-Show Image
-
-🏛️ Janaspandana
-
-A Hyperlocal Public Grievance Redressal Platform
-
-Empowering citizens to report, track, and resolve community issues through AI
-
-Show Image
-Show Image
-Show Image
-Show Image
-
-</div>
+<h1 align="center">🏛️ Janaspandana</h1>
+<h2 align="center">A Hyperlocal Public Grievance Redressal Platform</h2>
+<h3 align="center"><i>Empowering citizens to report, track, and resolve community issues through AI</i></h3>
+<p align="center">
+  <a href="https://aistudio.google.com"><img src="https://img.shields.io/badge/Built%20with-Google%20AI%20Studio-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Google AI Studio"></a>
+  <a href="https://ai.google.dev"><img src="https://img.shields.io/badge/Powered%20by-Gemini%20API-0F9D58?style=for-the-badge&logo=google&logoColor=white" alt="Gemini API"></a>
+  <a href="https://cloud.google.com/run"><img src="https://img.shields.io/badge/Deployed%20on-Cloud%20Run-FF6D00?style=for-the-badge&logo=google-cloud&logoColor=white" alt="Cloud Run"></a>
+  <a href="https://www.codingninjas.com"><img src="https://img.shields.io/badge/Coding%20Ninjas%20x%20Google-VIBE2SHIP-EA4335?style=for-the-badge" alt="VIBE2SHIP"></a>
+</p>
 
 🔗 Live Demo
 
@@ -77,26 +71,12 @@ Google TechnologyHow It Was UsedGoogle AI StudioPrimary development environment 
 
 Janaspandana uses Google Gemini with a custom system prompt to act as a civic grievance assistant:
 
-AI Pipeline
-
 StageWhat Happens🗣️ Issue IntakeCitizens describe problems in natural language (English or regional languages)🏷️ Auto-CategorizationGemini classifies the issue — Roads, Water, Electricity, Sanitation, Public Safety, etc.⚠️ Severity AssessmentThe model assesses urgency level — Critical / High / Medium / Low📩 Response GenerationCitizens receive a confirmation with tracking ID and estimated resolution timeline🔁 Pattern DetectionRepeated issues in the same area trigger predictive alerts for authorities
 
 
-🚀 Run and Deploy Your AI Studio App
+🚀 Run Locally
 
-This contains everything you need to run your app locally.
-
-View your app in AI Studio: https://ai.studio/apps/4ca25601-51af-4662-b162-7b2851dd6aa8
-
-Run Locally
-
-Prerequisites
-
-
-Node.js installed on your machine
-
-
-Steps
+Prerequisites: Node.js
 
 1. Install dependencies:
 
@@ -109,7 +89,7 @@ bashcp .env.example .env.local
 # GEMINI_API_KEY=your_api_key_here
 
 
-Get your free API key at: https://aistudio.google.com/apikey
+💡 Get your free API key at: https://aistudio.google.com/apikey
 
 
 
@@ -117,9 +97,7 @@ Get your free API key at: https://aistudio.google.com/apikey
 
 bashnpm run dev
 
-4. Open your browser at:
-
-http://localhost:3000
+4. Open your browser at http://localhost:3000
 
 
 ☁️ Deploy to Google Cloud Run
@@ -131,8 +109,6 @@ Google Cloud CLI installed
 A Google Cloud project with billing enabled
 Docker installed
 
-
-Steps
 
 1. Authenticate with Google Cloud:
 
@@ -163,10 +139,6 @@ bashgcloud run deploy janaspandana \
   --platform managed \
   --allow-unauthenticated \
   --set-env-vars GEMINI_API_KEY=your_api_key_here
-
-5. Your public URL will appear in the output:
-
-https://janaspandana-XXXXXXXXXXXX-as.a.run.app
 
 
 📁 Project Structure
@@ -210,7 +182,4 @@ Varshitha
 This project is open source and available under the MIT License.
 
 
-<div align="center">
-Built with ❤️ using Google AI Studio · Powered by Gemini · Deployed on Google Cloud Run
-
-</div>
+<h3 align="center">Built with ❤️ using Google AI Studio · Powered by Gemini · Deployed on Google Cloud Run</h3>
