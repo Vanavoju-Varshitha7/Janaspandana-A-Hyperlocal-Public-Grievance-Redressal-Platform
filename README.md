@@ -67,6 +67,7 @@ StepAction
 
 6️⃣Impact dashboards display community-wide issue trends and resolution metrics
 
+<img width="1883" height="1012" alt="Image" src="https://github.com/user-attachments/assets/1358c70e-15a9-4207-b2a4-3abebaf513fd" />
 
 <h2>✨ Key Features</h2>
 
