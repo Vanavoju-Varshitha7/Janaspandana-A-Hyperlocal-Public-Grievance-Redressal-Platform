@@ -1,4 +1,4 @@
-##🏛️ Janaspandana
+🏛️ Janaspandana
 
 A Hyperlocal Public Grievance Redressal Platform
 
