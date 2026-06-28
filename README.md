@@ -8,7 +8,7 @@
   <a href="https://www.codingninjas.com"><img src="https://img.shields.io/badge/Coding%20Ninjas%20x%20Google-VIBE2SHIP-EA4335?style=for-the-badge" alt="VIBE2SHIP"></a>
 </p>
 
-<img width="1918" height="852" alt="Image" src="https://github.com/user-attachments/assets/f762201c-636f-44b2-bb75-9c8ac835a258" />
+<img width="1886" height="965" alt="Image" src="https://github.com/user-attachments/assets/485c6c8c-9b96-4cfa-b0cf-2f294888b4a7" />
 
 <h3>🔗 Live Demo</h3>
 
