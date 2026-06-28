@@ -94,13 +94,17 @@ Prerequisites: Node.js
 
 1. Install dependencies:
 
-bashnpm install
+```bash
+npm install
+```
 
 2. Set the GEMINI_API_KEY in .env.local to your Gemini API key:
 
-bashcp .env.example .env.local
+```bash
+cp .env.example .env.local
 # Edit .env.local and add:
 # GEMINI_API_KEY=your_api_key_here
+```
 
 
 💡 Get your free API key at: https://aistudio.google.com/apikey
@@ -109,7 +113,9 @@ bashcp .env.example .env.local
 
 3. Run the app:
 
-bashnpm run dev
+```bash
+npm run dev
+```
 
 4. Open your browser at http://localhost:3000
 
@@ -126,16 +132,21 @@ Docker installed
 
 1. Authenticate with Google Cloud:
 
-bashgcloud auth login
+```bash
+gcloud auth login
 gcloud config set project YOUR_PROJECT_ID
+```
 
 2. Build the Docker image:
 
-bashdocker build -t janaspandana .
+```bash
+docker build -t janaspandana .
+```
 
 3. Tag and push to Artifact Registry:
 
-bashgcloud artifacts repositories create janaspandana-repo \
+```bash
+gcloud artifacts repositories create janaspandana-repo \
   --repository-format=docker \
   --location=asia-southeast1
 
@@ -144,15 +155,18 @@ docker tag janaspandana \
 
 docker push \
   asia-southeast1-docker.pkg.dev/YOUR_PROJECT_ID/janaspandana-repo/janaspandana
+```
 
 4. Deploy to Cloud Run:
 
-bashgcloud run deploy janaspandana \
+```bash
+gcloud run deploy janaspandana \
   --image asia-southeast1-docker.pkg.dev/YOUR_PROJECT_ID/janaspandana-repo/janaspandana \
   --region asia-southeast1 \
   --platform managed \
   --allow-unauthenticated \
   --set-env-vars GEMINI_API_KEY=your_api_key_here
+```
 
 
 <h3>📁 Project Structure</h3>
